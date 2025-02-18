@@ -34,7 +34,7 @@ const AudioConfirm = ({ setIsPlay }) => {
         <div className='fixed w-[20vw] '>
             <AudioPlayer
                 ref={audioRef}
-                src='/ILoveYouSo.mp3'
+                src='ILoveYouSo.mp3'
                 volume={50}
                 autoPlay
                 loop
