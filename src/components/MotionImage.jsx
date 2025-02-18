@@ -8,7 +8,7 @@ function MotionImage() {
 
     return (
         <motion.img
-            src="/BP1.jpg"
+            src="BP1.jpg"
             className="absolute top-[17%] left-[40%] z-40 rounded-lg"
             alt="Description"
             width={300}
