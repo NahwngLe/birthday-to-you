@@ -19,7 +19,7 @@ const Balloon1 = () => {
                 transition={{ duration: duration, ease: 'easeOut', delay: delay, repeat: Infinity }}
                 className="absolute bottom-0 z-0"
             >
-                <img src="src\assets\img\ballon1.svg" alt="Balloon" width={size} height={size} />
+                <img src="public\ballon1.svg" alt="Balloon" width={size} height={size} />
             </motion.div>
         );
     });
@@ -39,7 +39,7 @@ const Balloon1 = () => {
                 transition={{ duration: duration, ease: 'easeOut', delay: delay + 2, repeat: Infinity }}
                 className="absolute bottom-0 z-0"
             >
-                <img src="src\assets\img\ballon2.svg" alt="Balloon" width={size} height={size} />
+                <img src="public\ballon2.svg" alt="Balloon" width={size} height={size} />
             </motion.div>
         );
     });
@@ -59,7 +59,7 @@ const Balloon1 = () => {
                 transition={{ duration: duration, ease: 'easeOut', delay: delay + 1, repeat: Infinity }}
                 className="absolute bottom-0 z-0"
             >
-                <img src="src\assets\img\ballon3.svg" alt="Balloon" width={size} height={size} />
+                <img src="public\ballon3.svg" alt="Balloon" width={size} height={size} />
             </motion.div>
         );
     });

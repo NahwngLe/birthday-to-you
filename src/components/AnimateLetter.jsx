@@ -28,12 +28,12 @@ const AnimateLetter = ({ text, delay = 1 }) => {
         <motion.div
             className='inline-block ml-3'
             variants={containerVariance}
-            initial="hidden"
+            initial="hidden"    
             animate="visible"
         >
             {letters.map((letter, index) => (
                 <motion.span
-                    className='text-md text-blue-400'
+                    className='text-md text-white'
                     variants={letterVariance}
                     key={index}
                 >

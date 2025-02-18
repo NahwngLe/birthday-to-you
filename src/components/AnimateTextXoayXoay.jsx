@@ -42,7 +42,7 @@ const AnimateTextXoayXoay = ({
                         {visibleSentence.split('').map((letter, index) => (
                             <motion.span
                                 key={index}
-                                initial={{ color: '#fff', rotateY: 0 }}
+                                initial={{ color: '#ff8fab', rotateY: 0 }}
                                 animate={{ color: '#f00', rotateY: 360 }}
                                 transition={{
                                     delay: delay + index * 0.1,

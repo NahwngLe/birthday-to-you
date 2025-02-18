@@ -42,7 +42,7 @@ const ChattingScreen = ({ setIsStep, index }) => {
                             />
                         </div>
                         <div className='messbox bg-gray-600 h-[72%] '>
-                            <img src="src/assets/img/img.png" alt="hehe" className='' />
+                            <img src="public\img.png" alt="hehe" className='' />
                         </div>
                         <div className='messInput bg-[#242526] h-[19%] flex rounded-b-lg items-center border-white border-t-2'>
                             <div className='chat bg-gray-400 flex flex-col rounded-2xl h-[80%] w-[85%] ml-3 '>
